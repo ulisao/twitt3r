@@ -21,7 +21,7 @@ export function CreateTweet() {
     },
   });
 
-  async function handleSubmit(e) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
     try {
